@@ -1,5 +1,6 @@
 import React from "react";
 import { Component } from "react";
+import './dbStyle.css'
 
 // const dashboardHeader = () => {
 //     return <h1>Hello World</h1>;
@@ -10,8 +11,14 @@ import { Component } from "react";
 
 
 
-const DashBoard = props => {   
-     return <h1>Welcome {props.name}</h1>;
+const DashBoard = () => {   
+     return (
+          <div>
+               <h1 className="fontSize60 header-color left-allign mg30 card container pl50 pb50">GIT BANK</h1>
+             
+          </div>
+          
+     )
      
 }
 // 
