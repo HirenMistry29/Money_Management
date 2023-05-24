@@ -12,7 +12,7 @@ import Form from './components/Tutorials/Form/form'
 class App extends Component {
   render() {
     return (
-    <div className="App Header-Allign card container">
+    <div className="App Header-Allign ">
       <DashBoard/>
       {/* <TransactionButton /> */}
       {/* <EventBinding/>

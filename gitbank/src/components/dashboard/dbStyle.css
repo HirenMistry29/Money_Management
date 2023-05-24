@@ -2,6 +2,17 @@
     color: blue;
 }
 
+/* Fonts */
+@font-face {
+   font-family: 'Inter-Regular';
+    src: url('../../fonts/Inter-Regular.woff')format('woff');
+    
+    font-family: 'Inter-Bold';
+    src: url('../../fonts/Inter-Bold.woff')format('woff');
+    
+    
+}
+
 /* FONT SIZES */
 .fontSize80{
     font-size: 80px;
@@ -22,18 +33,11 @@
     text-align: left;
 }
 
-.mg30{
-    /* padding-left: 30px;
-    padding-top: 10px; */
-
-    margin-top: 0px;
-    margin-left: 30px;
-}
 
 
 /* CARD */
 .container{
-    max-width: 1260px;
+    max-width: 1560px;
     margin: 0 auto;
   }
 
@@ -67,6 +71,46 @@
 .pb50{
     padding-bottom: 50px;
 }
+.pb10{
+    padding-bottom: 10px;
+}
 
 
-  
+/* Margin */
+/* Left */
+.mgl10{
+    margin-left: 10px;
+}
+.mgl20{
+    margin-left: 20px;
+}
+.mgl30{
+    margin-left: 30px;
+}
+.mgl35{
+    margin-left: 35px;
+}
+.mgl40{
+    margin-left: 40px;
+}
+.mgl50{
+    margin-left: 50px;
+}
+.mgl54{
+    margin-left: 54px;
+}
+.mgl60{
+    margin-left: 60px;
+}
+.mgl70{
+    margin-left: 70px;
+}
+.mgl400{
+    margin-left: 500px;
+}
+
+
+/* Top */
+.mgt190{
+    margin-top: 190px;
+}
